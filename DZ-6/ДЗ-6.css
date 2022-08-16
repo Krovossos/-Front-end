@@ -5,7 +5,6 @@
 .black {
   background-color: black;
 }
-
 .black1 {
   background-color: black;
   background-image: url(./Белая\ пешка.png);
@@ -126,15 +125,14 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 table.CHESS td.field_right1 {
   width:25px; 
   height:25px; 
   background-color: rgb(27, 247, 27);
 }
 table.CHESS td.field_right2 { 
-height:25px; 
-background-color: rgb(27, 247, 27);
+  height:25px; 
+  background-color: rgb(27, 247, 27);
 }
 table.CHESS td.field_left1 {
   width:25px; 
@@ -146,6 +144,6 @@ table.CHESS td.field_left2{
   background-color: rgb(27, 247, 27);
 }
 table.CHESS td.field_top {
-width:25px; 
-background-color: rgb(27, 247, 27);
+  width:25px; 
+  background-color: rgb(27, 247, 27);
 }
