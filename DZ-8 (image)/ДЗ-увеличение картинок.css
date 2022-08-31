@@ -1,0 +1,49 @@
+.image {
+  width: 500px;
+	height: 400px;
+  left: 25%;
+  position: relative;
+}
+.biohazard {
+  background-image: url(./image/biohazard.png);
+  position: absolute;
+  width: 200px;
+	height: 185px;
+  left: 61%;
+  top: 14%;
+  background-repeat: no-repeat;
+}
+
+.man {
+  background-image: url(./image/Man-and-woman.png);
+	position: absolute;
+  width: 200px;
+	height: 185px;
+  left: 22%;
+  top: 12%;
+  background-repeat: no-repeat;
+}
+.smoking {
+  background-image: url(./image/No_smoking.png);
+	position: absolute;
+  width: 256px;
+	height: 256px;
+  left: 33%;
+  top: 18%;
+	z-index: 1;
+  background-repeat: no-repeat;
+}
+.yin {
+  background-image: url(./image/Yin_and_Yang.png);
+	position: absolute;
+  width: 200px;
+	height: 185px;
+  left: 39%;
+  top: 47%;
+  background-repeat: no-repeat;
+}
+.biohazard:hover, .man:hover, .yin:hover {
+	z-index: 10;
+  transform: scale(1.6);
+  transition: 1.2s;
+}
