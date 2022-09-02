@@ -1,0 +1,145 @@
+.header {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.privet {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(123, 213, 255);
+    text-align: center;
+    color: rgb (255, 255, 255);
+    color: rgb(18, 59, 240);
+    display: inline-block;
+    font-size: 200%;
+
+}
+
+.sidebar {
+    width: 20%;
+    min-width: 15%;
+    height: 90%;
+    background-color: rgb(255, 209, 123);
+    display: inline-block;
+    float: left;
+    line-height: 260%;
+    font-size: 120%;
+}
+
+.rasskaz {
+    width: 80%;
+    min-width: 20%;
+    height: 90%;
+    min-height: 20%;
+    display: inline-block;
+    padding-top: 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./image/fifa.png) repeat-y right;
+    text-align: center;
+}
+
+.image {
+    float: left;
+    width: 500px;
+    height: 300px;
+    background-image: url(./image/liga-evropy-uefa-uefa-europa.jpg);
+
+}
+
+
+.text {
+    text-align: justify;
+    font-size: 250%;
+}
+
+.footer {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(123, 213, 255);
+    text-align: center;
+    color: rgb(18, 59, 240);
+    display: inline-block;
+    font-size: 200%;
+}
+
+@media (max-width: 1452px) {
+
+    .sidebar {
+        width: 100%;
+        height: 10%;
+        background-color: rgb(255, 209, 123);
+        display: inline-block;
+        line-height: 20px;
+        font-size: 120%;
+
+    }
+
+    .sport {
+        display: inline-block;
+    }
+
+    .rasskaz {
+        font-size: 60%;
+        width: 100%;
+        height: 50%;
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./image/fifa.png) repeat-y right;
+
+    }
+}
+
+    @media (max-width: 900px) {
+        .rasskaz {
+            font-size: 50%;
+            width: 100%;
+            height: 46%;
+            display: inline-block;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        .privet {
+            display: none;
+        }
+
+        .footer {
+            display: none;
+
+        }
+    }
+
+        @media (max-width: 782px) and (min-width: 320px) {
+            
+            .rasskaz {
+                width: 100%;
+                height: 30%;
+
+            }
+            .image {
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                margin-left: 30%;
+                display: none;
+            }
+
+            .privet {
+                display: none;
+            }
+
+            .footer {
+                display: none;
+
+            }
+        }
+
+            @media (max-width: 782px) and (min-width: 320px) {
+                .rasskaz {
+                    width: 100%;
+                    height: 35%;
+                    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(./image/fifa.png) repeat-y right;
+                }
+                .text {
+                    margin-right: 20%;
+                }
+            }
