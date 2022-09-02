@@ -1,0 +1,80 @@
+.form {
+	width: 600px;
+	height: 318px;
+}
+
+.title {
+	width: 510px;
+	height: 10px;
+}
+
+.name {
+	margin-right: 30px;
+}
+
+.radio {
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.option {
+	margin-left: 86px;
+	margin-top: 10px;
+}
+
+.none {
+	display: none;
+}
+
+.comments {
+	margin-top: 10px;
+}
+
+.textarea {
+	width: 500px;
+	height: 70px;
+}
+
+@media (max-width: 600px) {
+	.form {
+		width: 320px;
+		height: 322px;
+	}
+
+	.title {
+		width: 320px;
+		height: 10px;
+		margin-bottom: 40px;
+	}
+
+	.option {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.submit {
+		border: 0px;
+	}
+
+	.public {
+		margin-top: 10px;
+	}
+
+	.none {
+		display: flex;
+	}
+
+	.radio {
+		margin-left: 5px;
+	}
+
+	.comments {
+		margin-top: 0px;
+	}
+
+	.textarea {
+		width: 280px;
+		height: 50px;
+		margin-bottom: 0px;
+	}
+}
